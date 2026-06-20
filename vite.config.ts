@@ -19,7 +19,7 @@ function figmaAssetResolver() {
 export default defineConfig({
   // For GitHub Pages: served at https://<user>.github.io/<repo>/
   // Override with VITE_BASE=/ when deploying to a root domain or custom host.
-  base: process.env.VITE_BASE ?? '/NW_Prototype/',
+  base: process.env.VITE_BASE ?? '/Klartext/',
   plugins: [
     figmaAssetResolver(),
     // The React and Tailwind plugins are both required for Make, even if

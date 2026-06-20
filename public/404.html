@@ -7,7 +7,7 @@
       // SPA fallback for GitHub Pages: rewrite unknown paths back to index.html
       // so the React app can handle routing.
       var path = window.location.pathname;
-      var repo = '/NW_Prototype/';
+      var repo = '/Klartext/';
       if (path.indexOf(repo) === 0) {
         var rest = path.slice(repo.length);
         sessionStorage.setItem('redirect', rest + window.location.search + window.location.hash);
