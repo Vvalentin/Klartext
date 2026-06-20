@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"C:\\\\Users\\\\valim\\\\Master\\\\NW\\\\Klartext\\\\NW_Prototype\\\\scripts\\\\generate-icons.ps1\")",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
